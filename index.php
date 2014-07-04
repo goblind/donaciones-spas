@@ -3,10 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Donar</title>
+	<style>
+		body {
+			font-family:'Lucida Casual', 'Comic Sans MS';
+		}
+	</style>
 </head>
 <body>
 	<div>
-		<h3>Ayudá a nuestros perritos con tu donación.</h3>
+		<h2>Ayudá a nuestros perritos con tu donación.</h3>
 	</div>
 	<div>	
 		<h4>$50</h4>
