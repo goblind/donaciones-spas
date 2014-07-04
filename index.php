@@ -11,6 +11,7 @@
 </head>
 <body>
 	<div>
+		<img src="spaslogo.jpg" width="350" height="350"  alt="">
 		<h2>Ayudá a nuestros perritos con tu donación.</h3>
 	</div>
 	<div>	
