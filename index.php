@@ -15,19 +15,17 @@
 	<div id="fb-root"></div>
     <script src="http://connect.facebook.net/en_US/all.js"></script>
 	<script type="text/javascript">
-     	FB.init({
-            appId  : '1428427990741852',
-        });
+       	FB.init({
+	        appId: '1428427990741852',
+	        status: true, // check login status
+	        cookie: true, // enable cookies to allow the server to access the session
+	        xfbml: true// parse XFBML
+	    });
+	    window.fbAsyncInit = function () {
+	        FB.Canvas.setSize();
+	    }
 
-     	function echoSize() {
-			document.getElementById('output').innerHTML = 
-    	    	"HTML Content Width: " + window.innerWidth + 
-                " Height: " + window.innerHeight;
-              	console.log(window.innerWidth + ' x ' + window.innerHeight);
-        }
-
-       	echoSize();
-       	window.onresize = echoSize;
+	    FB.Canvas.setAutoGrow(7);
      </script>
 	<div class="container">
 		<ul class="media-grid">
