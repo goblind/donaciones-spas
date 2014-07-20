@@ -21,9 +21,7 @@
 	        cookie: true, // enable cookies to allow the server to access the session
 	        xfbml: true// parse XFBML
 	    });
-	    FB.Canvas.setDoneLoading( function(result) {
-    		FB.Canvas.setSize();
-		});
+	    FB.Canvas.setSize({ width: 760, height: 1100 });
 	  
 		
 
