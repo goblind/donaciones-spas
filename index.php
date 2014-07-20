@@ -154,20 +154,19 @@
 
 	<script src="javascripts/jquery-1.11.1.min.js"></script>
 	<script src="javascripts/submit.js"></script>
+	
 	<div id="fb-root"></div>
     <script src="http://connect.facebook.net/en_US/all.js"></script>
 	<script type="text/javascript">
 		window.fbAsyncInit = function () {
-    	//Inicializacion del SDK
 		    FB.init({
-		        appId: '1428427990741852', //coloca aquí el APP ID de tu App
+		        appId: '1428427990741852', 
 		        status: true,
 		        cookie: true,
 		        xfbml: true
 		    });
 		 
-		    // Hacemos resize del Canvas
-		    FB.Canvas.setSize({ width: 760, height: 1100 });//medidas del iframe
+		    FB.Canvas.setSize({ width: 1000, height: 1100 });
 		};
 		 
 		// Load the FB SDK Asynchronously
