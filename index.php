@@ -166,7 +166,7 @@
 		        xfbml: true
 		    });
 		 
-		    FB.Canvas.setSize({ width: 1000, height: 1100 });
+		    FB.Canvas.setSize({ width: 810, height: 1100 });
 		};
 		 
 		// Load the FB SDK Asynchronously
