@@ -21,12 +21,10 @@
 	        cookie: true, // enable cookies to allow the server to access the session
 	        xfbml: true// parse XFBML
 	    });
-	    window.fbAsyncInit = function () {
-	        FB.Canvas.setSize();
-	    }
+	  
+		FB.Canvas.setSize();
 
-	    FB.Canvas.setAutoGrow(7);
-     </script>
+    </script>
 	<div class="container">
 		<ul class="media-grid">
 			<li>
