@@ -113,7 +113,7 @@
 		  	<div class="span12">
 		    	<h5 class="tab">Personalmente</h5>
 			    <div class="row centerText">
-			    	<p>Podés acercarnos tu donación a nuestro stand en el barrio de Caballito  (Av. Rivadavia entre Acoyte e Hidalgo frente a la puerta del Banco Provincia todos los sábados de 11hs a 13.30hs. Se suspende por mal clima.</p>
+			    	<p>Podés acercarnos tu donación a nuestro stand en el barrio de Caballito  (Av. Rivadavia entre Acoyte e Hidalgo frente a la puerta del Banco Provincia) todos los sábados de 11hs a 13.30hs. Se suspende por mal clima.</p>
 					<br>
 					<hr>
 			    	<p>Todas las donaciones son utilizadas para garantizar el bienestar de nuestros animales. Somos una institución privada sin ningún tipo de subsidio o ayuda gubernamental. Muchísimas gracias de parte de todo el grupo de voluntarios que conformamos la Sociedad Protectora de Animales Sarmiento.</p>
