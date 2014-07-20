@@ -12,20 +12,7 @@
 	</style>
 </head>
 <body>
-	<div id="fb-root"></div>
-    <script src="http://connect.facebook.net/en_US/all.js"></script>
-	<script type="text/javascript">
-       	FB.init({
-	        appId: '1428427990741852',
-	        status: true, // check login status
-	        cookie: true, // enable cookies to allow the server to access the session
-	        xfbml: true// parse XFBML
-	    });
-	    FB.Canvas.setSize({ width: 760, height: 1100 });
-	  
-		
-
-    </script>
+	
 	<div class="container">
 		<ul class="media-grid">
 			<li>
@@ -167,5 +154,29 @@
 
 	<script src="javascripts/jquery-1.11.1.min.js"></script>
 	<script src="javascripts/submit.js"></script>
+	<div id="fb-root"></div>
+    <script src="http://connect.facebook.net/en_US/all.js"></script>
+	<script type="text/javascript">
+		window.fbAsyncInit = function () {
+    	//Inicializacion del SDK
+		    FB.init({
+		        appId: '1428427990741852', //coloca aquí el APP ID de tu App
+		        status: true,
+		        cookie: true,
+		        xfbml: true
+		    });
+		 
+		    // Hacemos resize del Canvas
+		    FB.Canvas.setSize({ width: 760, height: 1100 });//medidas del iframe
+		};
+		 
+		// Load the FB SDK Asynchronously
+		(function (d) {
+		    var js, id = 'facebook-jssdk'; if (d.getElementById(id)) { return; }
+		    js = d.createElement('script'); js.id = id; js.async = true;
+		    js.src = "//connect.facebook.net/en_US/all.js";
+		    d.getElementsByTagName('head')[0].appendChild(js);
+		} (document));
+    </script>
 </body>
 </html>
