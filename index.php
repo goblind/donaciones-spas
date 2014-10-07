@@ -22,7 +22,7 @@
 			</li>
 		</ul>
 		<div class="row">
-			<div class="span12">
+			<!-- <div class="span12">
 		    	<h5 class="tab">Compra de Rifas</h5>
 		    	<div class="row centerText">
 			    	<p>Tenemos rifas para vender! Sortea por las últimas 3 cifras de la quiniela nocturna nacional del sábado 18 de octubre. Los premios son los siguientes. Los premios se retiran en Ciudad Autónoma de Buenos Aires.</p>
@@ -63,7 +63,7 @@
 			        	
 			      	</div>
 			    </div>
-		  	</div>
+		  	</div> -->
 		  	<div class="span12">
 		    	<h5 class="tab">Donaciones con Tajeta de Crédito</h5>
 		    	<div class="row centerText">
@@ -164,8 +164,7 @@
 		        status: true,
 		        cookie: true,
 		        xfbml: true
-		    });
-		 
+		    });	 
 		    FB.Canvas.setSize({ height: 1100 });
 		};
 		 
